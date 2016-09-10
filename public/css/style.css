@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+body {font-size: 12px;}
+.marginadd {margin: 5px 0px;}
+.login-img-add {float: left; height:40px; width:40px; background:#E2E2E2; border-radius: 100%; overflow: hidden;}
+.login-img-add img {width: 100%;}
+.name-id-add {float:left; margin: 9px 8px; font-size:16px;}
+.mobile-no-add {font-size: 12px; float:right;}
+.edit-mobile-no {float: right; position:relative; margin-left:5px;}
+.open-history {position:absolute; background:#fff; border:solid 1px #ddd; padding:7px; display:none;}
+.box1 {background:#E2E2E2; margin:5px 0px; padding:5px;}
+.responce-id {display: block;}
+.postedby {float:right;}
+.postd-radio {float:left; margin-left: 5px;}
+.postd-radio label {font-size:11px; font-weight:normal; margin:0px;}
+.according-tab-one {margin-bottom:5px; border:solid 1px #D2D2D2;}
+.heading-top-heading {background:#C0C0C0; padding:7px; font-size:14px;}
+.according-box-content {padding:5px; display:none;}
+.postd-radio.floatnone {float:none; display: block;}
+.heightmen {height:40px!important;}
+.margin-left-0 {margin-left:0px;}
+.r-ch {margin:5px 0px;}
+.form-group-a {margin-top:5px;}
+.Facing {float:left; margin-right:5px; font-weight:bold; padding-top: 2px;}
+.facing-select-box{float:left; padding:2px 6px; border-radius: 3px; background:#fff; border:solid 1px #e1e1e1; margin-right:5px;}
+.facing-select-box:hover {background:#337ab7; border:solid 1px #337ab7; cursor:pointer; color:#fff;}
+.facing-select-box.active {background:#337ab7; border:solid 1px #337ab7; color:#fff;}
+.facing-dr {background:#fef7c6; margin:5px 0px; padding:4px;}
+.rightls {float:right; width: 70%;}
+.padingtop {margin-bottom: 5px; position:relative;}
+.padingtop b {float:left; margin-top:5px;}
+.padingtop  a{position:absolute; right:0px; top:0px; padding: 8px;}
+.dropdownad {background:#F4F4F4; padding:4px;}
+.dropdownadd {position: relative; height: 46px;}
+.dropdownadd label{display:block;  margin:0px;}
+.dropdownadd label.pull-left {margin-right: 8px;}
+.dropdownadd select{display:block; width:100%; height: 24px;border: 1px solid #ccc;border-radius: 2px;background: #fff; position: absolute;top:20px; z-index: 999;}
+.onclickopenadd {float:right; cursor:pointer; background:#84b6e8; margin: -9px -8px; padding: 11px 11px 10px; color:#fff;}
+.accordion-toggle > i {transform: rotate(0deg); transition:all 0.2s ease;} 
+.accordion-toggle.collapsed > i {transform: rotate(180deg); transition:all 0.2s ease;}
+.selectbk {float: left; width: 100%;}
+.selectminmax {float: left; width: 100%; margin: 5px 0px;}
+.multiselect.dropdown-toggle {text-align: left; min-width: 120px;}
+.edit-mobile-no .dropdown-menu {min-width: 300px;}
+.edit-mobile-no .dropdown-menu li label {padding: 2px 10px; display: block;} 
+.edit-mobile-no .dropdown-menu li label:hover { cursor: pointer;}
+
+.table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+	border: 1px solid #dddddd;
+	position: relative;
+}
+.table-responsive > .table {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.table-responsive > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+}
+
+#scroller {
+    width: 100%;
+    overflow-x: scroll;
+}
+#scroller > .table > tbody > tr > th, #scroller > .table > tbody > tr > th, #scroller > .table > tfoot > tr > th, #scroller > .table > thead > tr > td, #scroller > .table > tbody > tr > td, #scroller > .table > tfoot > tr > td {
+    white-space: nowrap;
+}
+#scroller table {
+    /* just a quick hack to make the table overflow the containing div
+       your method may differ */
+    width: 100%;
+}
+
+#scroller .table.fixedCol {
+    width: auto;
+    position: absolute;
+    top: 0px;
+    /* below styles are specific for borderd Bootstrap tables
+       to remove rounded corners on cloned table */
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+       -moz-border-radius-topright: 0px;
+       -moz-border-radius-bottomright: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+}
+.table.fixedCol th,
+.table.fixedCol td {
+    /* background is set to white to hide underlaying column
+       of original table */
+    background: white;
+}
+.textbreak {
+    white-space: initial;
+	min-width: 450px;
+}
+.scrollbar table > tbody > tr > td {height:80px;}
+
+
+
+
+
+
+
+
+
+
+
+
