@@ -17,9 +17,9 @@ Route::get('/', function () {
 Route::get('/error', function () {
     return view('error');
 });
-Route::get('/Leadform/{id}', array('as'=>"Leadform",'uses'=> 'LeadformController@show'));
 Route::get('/giftAdTree', array('as' => 'giftData', 'uses' => 'GiftappController@treeJson'));
 Route::get('/giftAdd/{category}', array('as' => 'giftData', 'uses' => 'GiftappController@index'));
 
-
+Route::get('/FacebookLogin', array('as'=>"FacebookLogin",'uses'=> 'FacebookController@facebooklogin'));
+Route::get('/FacebookUser', array('as'=>"FacebookUser",'uses'=> 'FacebookController@facebookuser'));
 
