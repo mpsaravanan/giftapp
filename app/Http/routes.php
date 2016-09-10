@@ -19,7 +19,7 @@ Route::get('/error', function () {
 });
 Route::get('/Leadform/{id}', array('as'=>"Leadform",'uses'=> 'LeadformController@show'));
 Route::get('/giftAdTree', array('as' => 'giftData', 'uses' => 'GiftappController@treeJson'));
-Route::get('/giftAdd', array('as' => 'giftData', 'uses' => 'GiftappController@index'));
+Route::get('/giftAdd/{category}', array('as' => 'giftData', 'uses' => 'GiftappController@index'));
 
 
 

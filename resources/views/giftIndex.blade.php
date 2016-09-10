@@ -38,16 +38,16 @@
 <div class="container">
 	<div class="row">
 		 <div class="col-sm-3">
-			<label class="radio-inline"><input type="radio" ng-model="value" value="male" ng-change='newValue(value)'>Male</label>
+			<label class="radio-inline"><input type="radio" ng-model="value" value="1" ng-change='newValue(value)'>Male</label>
 		 </div>
 		 <div class="col-sm-3">
-			<label class="radio-inline"><input type="radio" ng-model="value" value="female" ng-change='newValue(value)'>Female</label>
+			<label class="radio-inline"><input type="radio" ng-model="value" value="2" ng-change='newValue(value)'>Female</label>
 		 </div>
 		 <div class="col-sm-3">
-			<label class="radio-inline"><input type="radio" ng-model="value" value="children" ng-change='newValue(value)'>Children</label>
+			<label class="radio-inline"><input type="radio" ng-model="value" value="3" ng-change='newValue(value)'>Children</label>
 		 </div>
 		 <div class="col-sm-3">
-			<label class="radio-inline"><input type="radio" ng-model="value" value="couples" ng-change='newValue(value)'>Couples</label>
+			<label class="radio-inline"><input type="radio" ng-model="value" value="4" ng-change='newValue(value)'>Couples</label>
 		 </div>
 
 	</div>
@@ -56,7 +56,9 @@
 <div class="container">
 	<div class="row">
 		 <div class="col-sm-12">
-			<button type="button" class="btn btn-primary go_button" ng-click="gotoLink()">GO</button>
+			<button type="button" class="btn btn-primary go_button" ng-click="gotoLink(userType)">GO</button>
 		 </div>
 	</div>
 </div>
+
+
