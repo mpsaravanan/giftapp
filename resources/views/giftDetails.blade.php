@@ -12,6 +12,10 @@
 </head>
 <body ng-app="sampleApp">
 <style type="text/css">
+	.btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:hover,.btn-facebook:focus,.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{color:#fff;background-color:#30487b;border-color:rgba(0,0,0,0.2)}
+	.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{background-image:none}
+	.btn-facebook.disabled,.btn-facebook[disabled],fieldset[disabled] .btn-facebook,.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled:active,.btn-facebook[disabled]:active,fieldset[disabled] .btn-facebook:active,.btn-facebook.disabled.active,.btn-facebook[disabled].active,fieldset[disabled] .btn-facebook.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+
 </style>
 <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/giftAppHomeController.js') }}"></script>
@@ -20,7 +24,7 @@
 	<div class="container" ng-controller="myCtrl">
 	<input type="hidden" name="currentCategory" ng-model="searchCategory" value="1" />
 		<div class="row">
-			 <div class="col-sm-2 maindiv3" ng-repeat="sData in suggestionData  | filter:{category:searchCategory}">
+			 <div class="col-sm-2 maindiv3" ng-repeat="sData in suggestionData  | filter:{category:searchCategory}" >
 	      <div class="mainDiv3Child">
 	        <img ng-src="@{{sData.image}}" class="suggestionImg">
 	    </div>
@@ -28,9 +32,31 @@
 	        <p> @{{sData.name}}</p>
 	        <p>Rs @{{sData.price}}</p>
 	    </div>
+				 <div>
+					 <button class="btn btn-primary" style="font-size:12px;" ng-click="facebookLoginLink()">Share Money With Friends</button>
+				 </div>
 			 </div>
 		</div>
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Please Signin</h4>
+					</div>
+					<div class="modal-body">
+						<button class="btn btn-facebook" ng-click="getfacebookfriends()"  style="background-color:#3B5998;font-size:12px;">Signin With Facebook</button>
+						<input type="hidden" value="" id="loginLink" name="loginLink" />
+					</div>
+				</div>
+
+			</div>
+		</div>
 	</div>
+
 
 
     
@@ -38,11 +64,11 @@
 
 
 
-gifAapp.controller("myCtrl", function($scope) {
+gifAapp.controller("myCtrl", function($scope,$http) {
 var pathname = window.location.pathname; 
 var categoryIdArr=pathname.split("/");
 var	categoryId=categoryIdArr[(categoryIdArr.length)-1];
-
+	$scope.show=false;
 $scope.searchCategory=categoryId;
           $scope.suggestionData=[
   {
@@ -168,7 +194,19 @@ $scope.searchCategory=categoryId;
 
 
 ];
+	$scope.getfacebookfriends=function(){
+		var loginUrl=$("#loginLink").val();
+		window.location.href=loginUrl;
+	}
+	$scope.facebookLoginLink=function(){
+		$http.get("/FacebookLogin").then(function (response) {
+			console.log(response.data);
+			var loginUrl=response.data;
+			$("#myModal").modal('show');
+			$("#loginLink").val(loginUrl);
+		});
 
+	}
       });
 
 </script>

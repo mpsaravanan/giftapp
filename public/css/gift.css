@@ -3,5 +3,5 @@
     .bottom_border { border: 1px solid #ccc; }
     .home_image { height: 300px !important; width: 100% }
     .suggestionImg { height: 90px; width: 150px;  }
-.maindiv3  { border: 1px solid #ccc; margin-right: 8%; margin-bottom: 20px; }
+.maindiv3  {  margin-right: 8%; margin-bottom: 20px; }
 .mainDiv3Child { margin: 8%; }

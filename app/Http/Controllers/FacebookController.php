@@ -39,7 +39,7 @@ class FacebookController extends Controller
         $permissions = ['email']; // Optional permissions
         $loginUrl = $helper->getLoginUrl('http://local.seqhack.com/FacebookUser', $permissions);
 
-        echo '<a href="' . htmlspecialchars($loginUrl) . '">Log in with Facebook!</a>';
+        echo ($loginUrl);
     }
 
     public function facebookuser(){
@@ -118,7 +118,7 @@ class FacebookController extends Controller
 
         // get list of friends' names
         try {
-            $requestFriends = $fb->get('/me/taggable_friends?fields=name&limit=100', $accessToken->getValue());
+            $requestFriends = $fb->get('/me/taggable_friends?fields=name&limit=10', $accessToken->getValue());
             $friends = $requestFriends->getGraphEdge();
         } catch(\Facebook\Exceptions\FacebookResponseException $e) {
             // When Graph returns an error
@@ -131,6 +131,7 @@ class FacebookController extends Controller
         }
         // if have more friends than 100 as we defined the limit above on line no. 68
         if ($fb->next($friends)) {
+            $a=array();
             $allFriends = array();
             $friendsArray = $friends->asArray();
             $allFriends = array_merge($friendsArray, $allFriends);
@@ -139,15 +140,16 @@ class FacebookController extends Controller
                 $allFriends = array_merge($friendsArray, $allFriends);
             }
             foreach ($allFriends as $key) {
-                echo $key['name'] . "<br>";
+                $a[] = $key['name'] . "<br>";
             }
             echo count($allFriends);
         } else {
             $allFriends = $friends->asArray();
             $totalFriends = count($allFriends);
             foreach ($allFriends as $key) {
-                echo $key['name'] . "<br>";
+                $a[] = $key['name'] . "<br>";
             }
         }
+        
     }
 }
