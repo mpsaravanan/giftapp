@@ -2,7 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2b2213-bd0d-4b0d-bd6e-16fd678594c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/reportsnew.blade.php" afterPath="$PROJECT_DIR$/resources/views/reportsnew.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CallruleController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CdrDataController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CompetencyController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CreateAgentController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ExecuteController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/LeadformController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/MappingController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/MatchMakingController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/MatchingEngineController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/MongoController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/PusherController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/QueueController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ReadytocallController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ViewController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/xpora-main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/xpora-mongo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/xpora-sub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/PSaddProjectMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/agentsummary.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/buyerMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/competency.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/counts.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/createagent.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/cronLeadMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/cronReport.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/cronReporttoTLMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/cronagentLeadMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/currentstatus.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/error.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/inflowDetail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/lead.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/leadEmailHourly.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/leadform.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/manager.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/matchingSellerLeadMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/pendingreports.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/reports.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/reportsnew.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/reqlead.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/resetpassword.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/sellerMail.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/superuser.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/teamleader.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/telecaller.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="xpora.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,340 +72,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MongoController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MongoController.php">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26175">
-              <caret line="1749" column="0" selection-start-line="1749" selection-start-column="0" selection-end-line="1749" selection-end-column="0" />
-              <folding>
-                <element signature="e#38#50#0#PHP" expanded="true" />
-                <marker date="1472712796000" expanded="true" signature="1102:1182" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="1384:1476" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="1553:1655" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="1946:2088" ph="select id,ci... re2_agent_competency_profile" />
-                <marker date="1472712796000" expanded="true" signature="2288:2340" ph="select id,na... re2_cities" />
-                <marker date="1472712796000" expanded="true" signature="4709:4796" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="4893:4988" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="5055:5153" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="5386:5535" ph="select id,ci... re2_agent_competency_profile" />
-                <marker date="1472712796000" expanded="true" signature="5715:5767" ph="select id,na... re2_cities" />
-                <marker date="1472712796000" expanded="true" signature="9751:9818" ph="SELECT city_... re2_requirements" />
-                <marker date="1472712796000" expanded="true" signature="12608:12781" ph="Select a.id,... re2_agent_call_cdr" />
-                <marker date="1472712796000" expanded="true" signature="14957:15044" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="15144:15243" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="15312:15414" ph="select id,em... re2_agent_login" />
-                <marker date="1472712796000" expanded="true" signature="18203:18386" ph="SELECT a.end... re2_agent_call_cdr" />
-                <marker date="1472712796000" expanded="true" signature="19535:19611" ph="SELECT end_d... re2_agent_call_cdr" />
-                <marker date="1472712796000" expanded="true" signature="19727:19854" ph="SELECT logou... re2_agent_login_logs" />
-                <marker date="1472712796000" expanded="true" signature="22456:22541" ph="SELECT hold_... re2_agent_hold_call" />
-                <marker date="1472712796000" expanded="true" signature="25273:25401" ph="SELECT agent... re2_agent_login_logs" />
-                <marker date="1472712796000" expanded="true" signature="61389:61476" ph="SELECT creat... re2_raw_requirements" />
-                <marker date="1472712796000" expanded="true" signature="72982:73069" ph="SELECT creat... re2_raw_requirements" />
-                <marker date="1472712796000" expanded="true" signature="78432:78492" ph="select * fro... re2_agent_call_cdr" />
-                <marker date="1472712796000" expanded="true" signature="81090:81161" ph="SELECT city_... re2_requirements" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ViewController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1316" column="25" selection-start-line="1316" selection-start-column="25" selection-end-line="1316" selection-end-column="25" />
-              <folding>
-                <marker date="1470632849000" expanded="true" signature="585:777" ph="Select aa.lo... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="1214:1282" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="1489:1598" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="1876:1996" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="2097:2206" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="2438:2545" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="2758:2822" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="2940:3032" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="4756:4828" ph="select * fro... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="5257:5349" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="6622:6721" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="7570:7674" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="8741:8873" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="9015:9111" ph="select GROUP... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="9238:9404" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="9502:9624" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="11112:11208" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="11948:12024" ph="select id fr... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="12362:12420" ph="update re2_a... " />
-                <marker date="1470632849000" expanded="true" signature="12742:12814" ph="select id,ag... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="12962:13033" ph="update re2_a... " />
-                <marker date="1470632849000" expanded="true" signature="13130:13183" ph="delete from " />
-                <marker date="1470632849000" expanded="true" signature="13737:13835" ph="select id,em... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="13945:14027" ph="update re2_a... " />
-                <marker date="1470632849000" expanded="true" signature="14938:14968" ph="select id,na... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="15193:15223" ph="select id,na... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="16009:16042" ph="select id,na... re2_locations" />
-                <marker date="1470632849000" expanded="true" signature="16264:16296" ph="select id,na... re2_projects" />
-                <marker date="1470632849000" expanded="true" signature="16655:16858" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="16976:17086" ph="select id fr... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="17328:17563" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="17717:17963" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="21420:21465" ph="select name re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="23485:23733" ph="select count... " />
-                <marker date="1470632849000" expanded="true" signature="24339:24578" ph="select count... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="24957:25273" ph="select r.id,... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="29550:29611" ph="select id fr... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="30184:30239" ph="Select id,na... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="31629:31768" ph="SELECT a.req... re2_agent_ad_detail" />
-                <marker date="1470632849000" expanded="true" signature="32841:33146" ph="select start... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="36170:36677" ph="SELECT b.use... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="42030:42077" ph="select name re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="44661:44851" ph="select call_... re2_requirement_call_dispositions" />
-                <marker date="1470632849000" expanded="true" signature="45256:45402" ph="Select req_i... re2_agent_matchmaking_email_status" />
-                <marker date="1470632849000" expanded="true" signature="46747:47254" ph="SELECT b.use... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="52017:52064" ph="select name re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="54648:54838" ph="select call_... re2_requirement_call_dispositions" />
-                <marker date="1470632849000" expanded="true" signature="55243:55389" ph="Select req_i... re2_agent_matchmaking_email_status" />
-                <marker date="1470632849000" expanded="true" signature="58107:58300" ph="Select a.nam... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="60179:60382" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="60501:60611" ph="select id fr... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="60853:61088" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="61242:61488" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="62765:62810" ph="select name re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="63674:63964" ph="Select c.xpo... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="65810:65899" ph="update re2_a... " />
-                <marker date="1470632849000" expanded="true" signature="65991:66086" ph="Select id,st... re2_requirements" />
-                <marker date="1470632849000" expanded="true" signature="66144:66463" ph="Select cp.ag... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="67050:67108" ph="select id,na... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="68462:68518" ph="SELECT id FR... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="68623:68728" ph="SELECT id, a... re2_agent_competency_profile" />
-                <marker date="1470632849000" expanded="true" signature="69645:69709" ph="SELECT id, n... re2_locations" />
-                <marker date="1470632849000" expanded="true" signature="71323:71793" ph="SELECT DISTI... re2_agent_call_cdr" />
-                <marker date="1470632849000" expanded="true" signature="75307:75486" ph="INSERT INTO `re2_agent_requeing`... " />
-                <marker date="1470632849000" expanded="true" signature="76332:76484" ph="SELECT id, r... re2_agent_ad_detail" />
-                <marker date="1470632849000" expanded="true" signature="77922:78067" ph="INSERT INTO `re2_agent_outbound_list`... " />
-                <marker date="1470632849000" expanded="true" signature="78139:78224" ph="UPDATE re2_a... " />
-                <marker date="1470632849000" expanded="true" signature="78681:78789" ph="select id fr... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="79150:79249" ph="SELECT count... re2_agent_outbound_list" />
-                <marker date="1470632849000" expanded="true" signature="79288:79417" ph="SELECT count... re2_agent_outbound_list" />
-                <marker date="1470632849000" expanded="true" signature="79568:79684" ph="SELECT count... re2_agent_outbound_list" />
-                <marker date="1470632849000" expanded="true" signature="79726:79872" ph="SELECT count... re2_agent_outbound_list" />
-                <marker date="1470632849000" expanded="true" signature="80023:80137" ph="SELECT count... re2_agent_outbound_list" />
-                <marker date="1470632849000" expanded="true" signature="80177:80321" ph="SELECT count... re2_agent_outbound_list" />
-                <marker date="1470632849000" expanded="true" signature="80445:80544" ph="SELECT count... re2_agent_ad_detail" />
-                <marker date="1470632849000" expanded="true" signature="83016:83124" ph="SELECT count... " />
-                <marker date="1470632849000" expanded="true" signature="83532:83600" ph="SELECT id,na... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="83778:83921" ph="SELECT count... " />
-                <marker date="1470632849000" expanded="true" signature="84326:84488" ph="SELECT count... " />
-                <marker date="1470632849000" expanded="true" signature="86310:86438" ph="SELECT b.id,... re2_requirements" />
-                <marker date="1470632849000" expanded="true" signature="86907:86974" ph="SELECT id,na... re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="87137:87212" ph="SELECT id,va... re2_user_contacts" />
-                <marker date="1470632849000" expanded="true" signature="87431:87544" ph="SELECT a.req... re2_agent_ad_detail" />
-                <marker date="1470632849000" expanded="true" signature="88639:88842" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="88961:89071" ph="select id fr... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="89313:89548" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="89702:89948" ph="select a.id,... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="91367:91412" ph="select name re2_cities" />
-                <marker date="1470632849000" expanded="true" signature="92313:92560" ph="select al.lo... re2_agent_login_logs" />
-                <marker date="1470632849000" expanded="true" signature="96714:96806" ph="Select req_i... re2_agent_matchmaking_email_status" />
-                <marker date="1470632849000" expanded="true" signature="97248:97344" ph="select id,na... re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="97506:97578" ph="SELECT count... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="97645:97767" ph="SELECT count... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="97832:97967" ph="SELECT count... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="98032:98153" ph="SELECT count... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="98218:98339" ph="SELECT count... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="98403:98528" ph="SELECT count... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="99217:99414" ph="SELECT a.id,... re2_agent_active" />
-                <marker date="1470632849000" expanded="true" signature="99669:100037" ph="SELECT (SELE... " />
-                <marker date="1470632849000" expanded="true" signature="100112:100267" ph="SELECT closu... re2_agent_call_hadling_detail" />
-                <marker date="1470632849000" expanded="true" signature="100512:100715" ph="SELECT break... re2_agent_login_logs" />
-                <marker date="1470632849000" expanded="true" signature="100887:100975" ph="select name re2_agent_login" />
-                <marker date="1470632849000" expanded="true" signature="103747:103926" ph="SELECT agent... re2_agent_login_logs" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadytocallController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReadytocallController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
-              <folding>
-                <marker date="1472818791000" expanded="true" signature="383:477" ph="SELECT * FRO... re2_agent_login_logs" />
-                <marker date="1472818791000" expanded="true" signature="623:694" ph="Select * fro... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="854:1008" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="1076:1163" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="1979:2050" ph="Select * fro... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="2252:2339" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="2858:2947" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="3659:3726" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="4257:4324" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="4950:5017" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="5927:6006" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="6783:6877" ph="SELECT * FRO... re2_agent_login_logs" />
-                <marker date="1472818791000" expanded="true" signature="7032:7186" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="7250:7339" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="7540:7872" ph="Select cp.ag... re2_agent_call_cdr" />
-                <marker date="1472818791000" expanded="true" signature="8753:8900" ph="select s.sip... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="8965:9023" ph="select id,na... re2_cities" />
-                <marker date="1472818791000" expanded="true" signature="11807:11886" ph="Select * fro... re2_agent_outbound_list" />
-                <marker date="1472818791000" expanded="true" signature="12178:12249" ph="Select * fro... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="12390:12470" ph="Select city,... re2_agent_ad_detail" />
-                <marker date="1472818791000" expanded="true" signature="12906:13040" ph="Select sa.si... re2_agent_sip_allotment" />
-                <marker date="1472818791000" expanded="true" signature="13108:13169" ph="Select name re2_agent_login" />
-                <marker date="1472818791000" expanded="true" signature="13236:13294" ph="Select name re2_agent_login" />
-                <marker date="1472818791000" expanded="true" signature="14445:14519" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="16229:16391" ph="insert into re2_agent_hold_call... " />
-                <marker date="1472818791000" expanded="true" signature="17219:17383" ph="insert into `re2_agent_hold_call`... " />
-                <marker date="1472818791000" expanded="true" signature="19240:19319" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="19503:19648" ph="SELECT req_i... re2_agent_ad_detail" />
-                <marker date="1472818791000" expanded="true" signature="21147:21198" ph="select id fr... re2_cities" />
-                <marker date="1472818791000" expanded="true" signature="21338:21683" ph="select id,ag... re2_agent_competency_profile" />
-                <marker date="1472818791000" expanded="true" signature="22006:22178" ph="select id,ag... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="22581:22666" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="22912:22988" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="23078:23167" ph="SELECT sip_n... re2_agent_sip_allotment" />
-                <marker date="1472818791000" expanded="true" signature="26513:26607" ph="SELECT * FRO... re2_agent_login_logs" />
-                <marker date="1472818791000" expanded="true" signature="26754:26825" ph="Select * fro... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="26971:27154" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="27223:27323" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="27513:27605" ph="select * fro... re2_agent_login_logs" />
-                <marker date="1472818791000" expanded="true" signature="27862:28018" ph="INSERT INTO re2_agent_login_logs... " />
-                <marker date="1472818791000" expanded="true" signature="28469:28569" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="28758:28936" ph="SELECT id,xp... re2_agent_call_cdr" />
-                <marker date="1472818791000" expanded="true" signature="29051:29278" ph="insert into re2_agent_call_hadling_detail... " />
-                <marker date="1472818791000" expanded="true" signature="29485:29556" ph="Select * fro... re2_agent_active" />
-                <marker date="1472818791000" expanded="true" signature="29699:29793" ph="SELECT * FRO... re2_agent_login_logs" />
-                <marker date="1472818791000" expanded="true" signature="29901:30084" ph="update re2_a... " />
-                <marker date="1472818791000" expanded="true" signature="30151:30243" ph="select * fro... re2_agent_login_logs" />
-                <marker date="1472818791000" expanded="true" signature="30500:30656" ph="INSERT INTO re2_agent_login_logs... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PusherController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PusherController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5250">
-              <caret line="746" column="74" selection-start-line="746" selection-start-column="74" selection-end-line="746" selection-end-column="74" />
-              <folding>
-                <marker date="1473143572000" expanded="true" signature="984:1055" ph="select id,ci... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="1938:2003" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="2111:2269" ph="Insert into re2_agent_ad_detail... " />
-                <marker date="1473143572000" expanded="true" signature="3157:3228" ph="select id,ci... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="4107:4172" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="4280:4438" ph="Insert into re2_agent_ad_detail... " />
-                <marker date="1473143572000" expanded="true" signature="6680:6767" ph="select req_i... re2_agent_lifo_queue" />
-                <marker date="1473143572000" expanded="true" signature="6884:6971" ph="UPDATE re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="7088:7216" ph="INSERT INTO re2_agent_lifo_queue... " />
-                <marker date="1473143572000" expanded="true" signature="9169:9256" ph="select req_i... re2_agent_lifo_queue" />
-                <marker date="1473143572000" expanded="true" signature="9373:9460" ph="UPDATE re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="9580:9716" ph="INSERT INTO re2_agent_lifo_queue... " />
-                <marker date="1473143572000" expanded="true" signature="10601:10671" ph="select id fr... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="11090:11195" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="11948:12022" ph="SELECT id FR... re2_agent_requeing" />
-                <marker date="1473143572000" expanded="true" signature="13498:13568" ph="select id fr... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="13985:14090" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="14843:14917" ph="SELECT id FR... re2_agent_requeing" />
-                <marker date="1473143572000" expanded="true" signature="17483:17628" ph="select id,st... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="17747:17812" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="19993:20138" ph="select id,st... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="20257:20322" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="21462:21533" ph="select id,ci... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="22492:22557" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="22673:22831" ph="Insert into re2_agent_ad_detail... " />
-                <marker date="1473143572000" expanded="true" signature="23818:23889" ph="select id,ci... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="24562:24627" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="24751:24909" ph="Insert into re2_agent_ad_detail... " />
-                <marker date="1473143572000" expanded="true" signature="25384:25449" ph="select req_i... re2_agent_ad_detail" />
-                <marker date="1473143572000" expanded="true" signature="25573:25731" ph="Insert into re2_agent_ad_detail... " />
-                <marker date="1473143572000" expanded="true" signature="26532:26675" ph="SELECT sip_i... re2_agent_active" />
-                <marker date="1473143572000" expanded="true" signature="31677:31791" ph="select id,ag... re2_agent_active" />
-                <marker date="1473143572000" expanded="true" signature="31983:32081" ph="select id,ag... re2_agent_competency_profile" />
-                <marker date="1473143572000" expanded="true" signature="32712:32766" ph="select id,na... re2_cities" />
-                <marker date="1473143572000" expanded="true" signature="34277:34398" ph="select req_i... re2_agent_lifo_queue" />
-                <marker date="1473143572000" expanded="true" signature="35032:35153" ph="select req_i... re2_agent_lifo_queue" />
-                <marker date="1473143572000" expanded="true" signature="36659:36725" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="36998:37064" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="37158:37220" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="37392:37457" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="37543:37604" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="39102:39215" ph="select id,ag... re2_agent_active" />
-                <marker date="1473143572000" expanded="true" signature="39407:39505" ph="select id,ag... re2_agent_competency_profile" />
-                <marker date="1473143572000" expanded="true" signature="40136:40190" ph="select id,na... re2_cities" />
-                <marker date="1473143572000" expanded="true" signature="41709:41845" ph="select req_i... re2_agent_lifo_queue" />
-                <marker date="1473143572000" expanded="true" signature="42477:42598" ph="select req_i... re2_agent_lifo_queue" />
-                <marker date="1473143572000" expanded="true" signature="44121:44187" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="44460:44526" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="44616:44678" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="44850:44915" ph="update re2_a... " />
-                <marker date="1473143572000" expanded="true" signature="45001:45062" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="49281:49380" ph="select count... re2_agent_call_cdr" />
-                <marker date="1473143572000" expanded="true" signature="49474:49605" ph="select count... re2_agent_call_cdr" />
-                <marker date="1473143572000" expanded="true" signature="50057:50114" ph="select statu... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="50279:50413" ph="select legA_... re2_agent_call_cdr" />
-                <marker date="1473143572000" expanded="true" signature="50526:50621" ph="SELECT * FRO... re2_agent_call_cases" />
-                <marker date="1473143572000" expanded="true" signature="52454:52550" ph="SELECT actio... re2_agent_call_cases" />
-                <marker date="1473143572000" expanded="true" signature="52667:52738" ph="SELECT * FRO... re2_agent_call_cases" />
-                <marker date="1473143572000" expanded="true" signature="55058:55134" ph="select city_... re2_requirements" />
-                <marker date="1473143572000" expanded="true" signature="55241:55291" ph="Select id,na... re2_cities" />
-                <marker date="1473143572000" expanded="true" signature="55435:55496" ph="Select type,... re2_user_contacts" />
-                <marker date="1473143572000" expanded="true" signature="55679:55778" ph="select count... re2_agent_call_cdr" />
-                <marker date="1473143572000" expanded="true" signature="55884:56015" ph="select count... re2_agent_call_cdr" />
-                <marker date="1473143572000" expanded="true" signature="56503:56600" ph="SELECT * FRO... re2_agent_call_cases" />
-                <marker date="1473143572000" expanded="true" signature="57142:57297" ph="INSERT INTO re2_agent_re_attempt... " />
-                <marker date="1473143572000" expanded="true" signature="57387:57448" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="57872:57933" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="58508:58663" ph="INSERT INTO re2_agent_re_attempt... " />
-                <marker date="1473143572000" expanded="true" signature="58753:58814" ph="delete from " />
-                <marker date="1473143572000" expanded="true" signature="59142:59203" ph="delete from " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reportsnew.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/reportsnew.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#button#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8282#8288#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#10574#10580#0#HTML" expanded="true" />
-                <element signature="e#10580#10586#0#HTML" expanded="true" />
-                <element signature="e#10586#10592#0#HTML" expanded="true" />
-                <element signature="e#10592#10598#0#HTML" expanded="true" />
-                <element signature="e#10598#10604#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2445">
-              <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -382,41 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="160" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="160" />
-              <folding>
-                <marker date="1472033808000" expanded="true" signature="739:895" ph="select id,na... re2_agent_login" />
-                <marker date="1472033808000" expanded="true" signature="1035:1115" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="1316:1432" ph="INSERT INTO re2_agent_login_logs... " />
-                <marker date="1472033808000" expanded="true" signature="1553:1702" ph="SELECT sip_i... re2_agent_active" />
-                <marker date="1472033808000" expanded="true" signature="3298:3392" ph="SELECT * FRO... re2_agent_login_logs" />
-                <marker date="1472033808000" expanded="true" signature="3583:3717" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="3908:4094" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="4365:4551" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="4790:4892" ph="select id,em... re2_agent_login" />
-                <marker date="1472033808000" expanded="true" signature="6469:6600" ph="select id,em... re2_agent_login" />
-                <marker date="1472033808000" expanded="true" signature="7086:7220" ph="select id,em... re2_agent_login" />
-                <marker date="1472033808000" expanded="true" signature="7389:7476" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="8771:8850" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="8937:9115" ph="SELECT id,xp... re2_agent_call_cdr" />
-                <marker date="1472033808000" expanded="true" signature="9254:9481" ph="insert into re2_agent_call_hadling_detail... " />
-                <marker date="1472033808000" expanded="true" signature="9738:9850" ph="SELECT id,ag... re2_agent_active" />
-                <marker date="1472033808000" expanded="true" signature="10514:10692" ph="SELECT id,xp... re2_agent_call_cdr" />
-                <marker date="1472033808000" expanded="true" signature="10831:11058" ph="insert into re2_agent_call_hadling_detail... " />
-                <marker date="1472033808000" expanded="true" signature="11314:11393" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="11470:11582" ph="SELECT id,ag... re2_agent_active" />
-                <marker date="1472033808000" expanded="true" signature="12301:12384" ph="SELECT * FRO... re2_agent_login_logs" />
-                <marker date="1472033808000" expanded="true" signature="12543:12675" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="12855:13030" ph="update re2_a... " />
-                <marker date="1472033808000" expanded="true" signature="17044:17109" ph="SELECT city_... re2_agent_competency_profile" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -431,10 +126,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/test.js" />
         <option value="$PROJECT_DIR$/public/js/xpora-mongo.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MongoController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReadytocallController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/QueueController.php" />
         <option value="$PROJECT_DIR$/resources/views/reportsnew.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -454,8 +149,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="y" value="44" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -482,97 +178,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -582,11 +214,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -596,29 +228,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
+              <option name="myItemId" value="seqhack" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -627,28 +241,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xpora" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -735,10 +327,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74598000" />
+    <option name="totallyTimeSpent" value="74638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="44" width="1280" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -783,33 +375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#50#0#PHP" expanded="true" />
-            <marker date="1472712796000" expanded="true" signature="1102:1182" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="1384:1476" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="1553:1655" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="1946:2088" ph="select id,ci... re2_agent_competency_profile" />
-            <marker date="1472712796000" expanded="true" signature="2288:2340" ph="select id,na... re2_cities" />
-            <marker date="1472712796000" expanded="true" signature="4709:4796" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="4893:4988" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="5055:5153" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="5386:5535" ph="select id,ci... re2_agent_competency_profile" />
-            <marker date="1472712796000" expanded="true" signature="5715:5767" ph="select id,na... re2_cities" />
-            <marker date="1472712796000" expanded="true" signature="9751:9818" ph="SELECT city_... re2_requirements" />
-            <marker date="1472712796000" expanded="true" signature="12608:12781" ph="Select a.id,... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="14957:15044" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="15144:15243" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="15312:15414" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="18203:18386" ph="SELECT a.end... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="19535:19611" ph="SELECT end_d... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="19727:19854" ph="SELECT logou... re2_agent_login_logs" />
-            <marker date="1472712796000" expanded="true" signature="22456:22541" ph="SELECT hold_... re2_agent_hold_call" />
-            <marker date="1472712796000" expanded="true" signature="25273:25401" ph="SELECT agent... re2_agent_login_logs" />
-            <marker date="1472712796000" expanded="true" signature="61389:61476" ph="SELECT creat... re2_raw_requirements" />
-            <marker date="1472712796000" expanded="true" signature="72982:73069" ph="SELECT creat... re2_raw_requirements" />
-            <marker date="1472712796000" expanded="true" signature="78432:78492" ph="select * fro... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="81090:81161" ph="SELECT city_... re2_requirements" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,111 +383,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19740">
           <caret line="1316" column="25" selection-start-line="1316" selection-start-column="25" selection-end-line="1316" selection-end-column="25" />
-          <folding>
-            <marker date="1470632849000" expanded="true" signature="585:777" ph="Select aa.lo... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="1214:1282" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="1489:1598" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="1876:1996" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2097:2206" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2438:2545" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2758:2822" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2940:3032" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="4756:4828" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="5257:5349" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="6622:6721" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="7570:7674" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="8741:8873" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="9015:9111" ph="select GROUP... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="9238:9404" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="9502:9624" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="11112:11208" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="11948:12024" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="12362:12420" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="12742:12814" ph="select id,ag... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="12962:13033" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="13130:13183" ph="delete from " />
-            <marker date="1470632849000" expanded="true" signature="13737:13835" ph="select id,em... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="13945:14027" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="14938:14968" ph="select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="15193:15223" ph="select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="16009:16042" ph="select id,na... re2_locations" />
-            <marker date="1470632849000" expanded="true" signature="16264:16296" ph="select id,na... re2_projects" />
-            <marker date="1470632849000" expanded="true" signature="16655:16858" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="16976:17086" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="17328:17563" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="17717:17963" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="21420:21465" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="23485:23733" ph="select count... " />
-            <marker date="1470632849000" expanded="true" signature="24339:24578" ph="select count... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="24957:25273" ph="select r.id,... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="29550:29611" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="30184:30239" ph="Select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="31629:31768" ph="SELECT a.req... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="32841:33146" ph="select start... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="36170:36677" ph="SELECT b.use... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="42030:42077" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="44661:44851" ph="select call_... re2_requirement_call_dispositions" />
-            <marker date="1470632849000" expanded="true" signature="45256:45402" ph="Select req_i... re2_agent_matchmaking_email_status" />
-            <marker date="1470632849000" expanded="true" signature="46747:47254" ph="SELECT b.use... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="52017:52064" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="54648:54838" ph="select call_... re2_requirement_call_dispositions" />
-            <marker date="1470632849000" expanded="true" signature="55243:55389" ph="Select req_i... re2_agent_matchmaking_email_status" />
-            <marker date="1470632849000" expanded="true" signature="58107:58300" ph="Select a.nam... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="60179:60382" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="60501:60611" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="60853:61088" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="61242:61488" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="62765:62810" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="63674:63964" ph="Select c.xpo... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="65810:65899" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="65991:66086" ph="Select id,st... re2_requirements" />
-            <marker date="1470632849000" expanded="true" signature="66144:66463" ph="Select cp.ag... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="67050:67108" ph="select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="68462:68518" ph="SELECT id FR... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="68623:68728" ph="SELECT id, a... re2_agent_competency_profile" />
-            <marker date="1470632849000" expanded="true" signature="69645:69709" ph="SELECT id, n... re2_locations" />
-            <marker date="1470632849000" expanded="true" signature="71323:71793" ph="SELECT DISTI... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="75307:75486" ph="INSERT INTO `re2_agent_requeing`... " />
-            <marker date="1470632849000" expanded="true" signature="76332:76484" ph="SELECT id, r... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="77922:78067" ph="INSERT INTO `re2_agent_outbound_list`... " />
-            <marker date="1470632849000" expanded="true" signature="78139:78224" ph="UPDATE re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="78681:78789" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="79150:79249" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="79288:79417" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="79568:79684" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="79726:79872" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="80023:80137" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="80177:80321" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="80445:80544" ph="SELECT count... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="83016:83124" ph="SELECT count... " />
-            <marker date="1470632849000" expanded="true" signature="83532:83600" ph="SELECT id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="83778:83921" ph="SELECT count... " />
-            <marker date="1470632849000" expanded="true" signature="84326:84488" ph="SELECT count... " />
-            <marker date="1470632849000" expanded="true" signature="86310:86438" ph="SELECT b.id,... re2_requirements" />
-            <marker date="1470632849000" expanded="true" signature="86907:86974" ph="SELECT id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="87137:87212" ph="SELECT id,va... re2_user_contacts" />
-            <marker date="1470632849000" expanded="true" signature="87431:87544" ph="SELECT a.req... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="88639:88842" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="88961:89071" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="89313:89548" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="89702:89948" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="91367:91412" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="92313:92560" ph="select al.lo... re2_agent_login_logs" />
-            <marker date="1470632849000" expanded="true" signature="96714:96806" ph="Select req_i... re2_agent_matchmaking_email_status" />
-            <marker date="1470632849000" expanded="true" signature="97248:97344" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="97506:97578" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="97645:97767" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="97832:97967" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="98032:98153" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="98218:98339" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="98403:98528" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="99217:99414" ph="SELECT a.id,... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="99669:100037" ph="SELECT (SELE... " />
-            <marker date="1470632849000" expanded="true" signature="100112:100267" ph="SELECT closu... re2_agent_call_hadling_detail" />
-            <marker date="1470632849000" expanded="true" signature="100512:100715" ph="SELECT break... re2_agent_login_logs" />
-            <marker date="1470632849000" expanded="true" signature="100887:100975" ph="select name re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="103747:103926" ph="SELECT agent... re2_agent_login_logs" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,56 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
-          <folding>
-            <marker date="1472818791000" expanded="true" signature="383:477" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="623:694" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="854:1008" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="1076:1163" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="1979:2050" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="2252:2339" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="2858:2947" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="3659:3726" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="4257:4324" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="4950:5017" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="5927:6006" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="6783:6877" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="7032:7186" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="7250:7339" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="7540:7872" ph="Select cp.ag... re2_agent_call_cdr" />
-            <marker date="1472818791000" expanded="true" signature="8753:8900" ph="select s.sip... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="8965:9023" ph="select id,na... re2_cities" />
-            <marker date="1472818791000" expanded="true" signature="11807:11886" ph="Select * fro... re2_agent_outbound_list" />
-            <marker date="1472818791000" expanded="true" signature="12178:12249" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="12390:12470" ph="Select city,... re2_agent_ad_detail" />
-            <marker date="1472818791000" expanded="true" signature="12906:13040" ph="Select sa.si... re2_agent_sip_allotment" />
-            <marker date="1472818791000" expanded="true" signature="13108:13169" ph="Select name re2_agent_login" />
-            <marker date="1472818791000" expanded="true" signature="13236:13294" ph="Select name re2_agent_login" />
-            <marker date="1472818791000" expanded="true" signature="14445:14519" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="16229:16391" ph="insert into re2_agent_hold_call... " />
-            <marker date="1472818791000" expanded="true" signature="17219:17383" ph="insert into `re2_agent_hold_call`... " />
-            <marker date="1472818791000" expanded="true" signature="19240:19319" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="19503:19648" ph="SELECT req_i... re2_agent_ad_detail" />
-            <marker date="1472818791000" expanded="true" signature="21147:21198" ph="select id fr... re2_cities" />
-            <marker date="1472818791000" expanded="true" signature="21338:21683" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1472818791000" expanded="true" signature="22006:22178" ph="select id,ag... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="22581:22666" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="22912:22988" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="23078:23167" ph="SELECT sip_n... re2_agent_sip_allotment" />
-            <marker date="1472818791000" expanded="true" signature="26513:26607" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="26754:26825" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="26971:27154" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="27223:27323" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="27513:27605" ph="select * fro... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="27862:28018" ph="INSERT INTO re2_agent_login_logs... " />
-            <marker date="1472818791000" expanded="true" signature="28469:28569" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="28758:28936" ph="SELECT id,xp... re2_agent_call_cdr" />
-            <marker date="1472818791000" expanded="true" signature="29051:29278" ph="insert into re2_agent_call_hadling_detail... " />
-            <marker date="1472818791000" expanded="true" signature="29485:29556" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="29699:29793" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="29901:30084" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="30151:30243" ph="select * fro... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="30500:30656" ph="INSERT INTO re2_agent_login_logs... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,78 +407,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11040">
           <caret line="736" column="74" selection-start-line="736" selection-start-column="74" selection-end-line="736" selection-end-column="74" />
-          <folding>
-            <marker date="1473143572000" expanded="true" signature="984:1055" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="1938:2003" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="2111:2269" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="3157:3228" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="4107:4172" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="4280:4438" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="6680:6767" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="6884:6971" ph="UPDATE re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="7088:7216" ph="INSERT INTO re2_agent_lifo_queue... " />
-            <marker date="1473143572000" expanded="true" signature="9169:9256" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="9373:9460" ph="UPDATE re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="9580:9716" ph="INSERT INTO re2_agent_lifo_queue... " />
-            <marker date="1473143572000" expanded="true" signature="10601:10671" ph="select id fr... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="11090:11195" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="11948:12022" ph="SELECT id FR... re2_agent_requeing" />
-            <marker date="1473143572000" expanded="true" signature="13498:13568" ph="select id fr... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="13985:14090" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="14843:14917" ph="SELECT id FR... re2_agent_requeing" />
-            <marker date="1473143572000" expanded="true" signature="17483:17628" ph="select id,st... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="17747:17812" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="19993:20138" ph="select id,st... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="20257:20322" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="21462:21533" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="22492:22557" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="22673:22831" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="23818:23889" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="24562:24627" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="24751:24909" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="25384:25449" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="25573:25731" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="26532:26675" ph="SELECT sip_i... re2_agent_active" />
-            <marker date="1473143572000" expanded="true" signature="31677:31791" ph="select id,ag... re2_agent_active" />
-            <marker date="1473143572000" expanded="true" signature="31983:32081" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1473143572000" expanded="true" signature="32712:32766" ph="select id,na... re2_cities" />
-            <marker date="1473143572000" expanded="true" signature="34277:34398" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="35032:35153" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="36659:36725" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="36998:37064" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="37158:37220" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="37392:37457" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="37543:37604" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="39102:39215" ph="select id,ag... re2_agent_active" />
-            <marker date="1473143572000" expanded="true" signature="39407:39505" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1473143572000" expanded="true" signature="40136:40190" ph="select id,na... re2_cities" />
-            <marker date="1473143572000" expanded="true" signature="41709:41845" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="42477:42598" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="44121:44187" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="44460:44526" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="44616:44678" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="44850:44915" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="45001:45062" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="49281:49380" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="49474:49605" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="50057:50114" ph="select statu... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="50279:50413" ph="select legA_... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="50526:50621" ph="SELECT * FRO... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="52454:52550" ph="SELECT actio... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="52667:52738" ph="SELECT * FRO... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="55058:55134" ph="select city_... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="55241:55291" ph="Select id,na... re2_cities" />
-            <marker date="1473143572000" expanded="true" signature="55435:55496" ph="Select type,... re2_user_contacts" />
-            <marker date="1473143572000" expanded="true" signature="55679:55778" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="55884:56015" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="56503:56600" ph="SELECT * FRO... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="57142:57297" ph="INSERT INTO re2_agent_re_attempt... " />
-            <marker date="1473143572000" expanded="true" signature="57387:57448" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="57872:57933" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="58508:58663" ph="INSERT INTO re2_agent_re_attempt... " />
-            <marker date="1473143572000" expanded="true" signature="58753:58814" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="59142:59203" ph="delete from " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,33 +472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26175">
           <caret line="1749" column="0" selection-start-line="1749" selection-start-column="0" selection-end-line="1749" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#50#0#PHP" expanded="true" />
-            <marker date="1472712796000" expanded="true" signature="1102:1182" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="1384:1476" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="1553:1655" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="1946:2088" ph="select id,ci... re2_agent_competency_profile" />
-            <marker date="1472712796000" expanded="true" signature="2288:2340" ph="select id,na... re2_cities" />
-            <marker date="1472712796000" expanded="true" signature="4709:4796" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="4893:4988" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="5055:5153" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="5386:5535" ph="select id,ci... re2_agent_competency_profile" />
-            <marker date="1472712796000" expanded="true" signature="5715:5767" ph="select id,na... re2_cities" />
-            <marker date="1472712796000" expanded="true" signature="9751:9818" ph="SELECT city_... re2_requirements" />
-            <marker date="1472712796000" expanded="true" signature="12608:12781" ph="Select a.id,... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="14957:15044" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="15144:15243" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="15312:15414" ph="select id,em... re2_agent_login" />
-            <marker date="1472712796000" expanded="true" signature="18203:18386" ph="SELECT a.end... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="19535:19611" ph="SELECT end_d... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="19727:19854" ph="SELECT logou... re2_agent_login_logs" />
-            <marker date="1472712796000" expanded="true" signature="22456:22541" ph="SELECT hold_... re2_agent_hold_call" />
-            <marker date="1472712796000" expanded="true" signature="25273:25401" ph="SELECT agent... re2_agent_login_logs" />
-            <marker date="1472712796000" expanded="true" signature="61389:61476" ph="SELECT creat... re2_raw_requirements" />
-            <marker date="1472712796000" expanded="true" signature="72982:73069" ph="SELECT creat... re2_raw_requirements" />
-            <marker date="1472712796000" expanded="true" signature="78432:78492" ph="select * fro... re2_agent_call_cdr" />
-            <marker date="1472712796000" expanded="true" signature="81090:81161" ph="SELECT city_... re2_requirements" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,19 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <marker date="1472549860000" expanded="true" signature="390:498" ph="select id,re... re2_agent_ad_detail" />
-            <marker date="1472549860000" expanded="true" signature="1984:2035" ph="select id fr... re2_cities" />
-            <marker date="1472549860000" expanded="true" signature="2113:2419" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1472549860000" expanded="true" signature="3058:3230" ph="select id,ag... re2_agent_active" />
-            <marker date="1472549860000" expanded="true" signature="3633:3718" ph="update re2_a... " />
-            <marker date="1472549860000" expanded="true" signature="4134:4223" ph="SELECT sip_n... re2_agent_sip_allotment" />
-            <marker date="1472549860000" expanded="true" signature="8081:8132" ph="select id fr... re2_cities" />
-            <marker date="1472549860000" expanded="true" signature="8202:8514" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1472549860000" expanded="true" signature="8933:9108" ph="select id,ag... re2_agent_active" />
-            <marker date="1472549860000" expanded="true" signature="9471:9556" ph="update re2_a... " />
-            <marker date="1472549860000" expanded="true" signature="9785:9874" ph="SELECT sip_n... re2_agent_sip_allotment" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,307 +519,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="34" column="160" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="160" />
-          <folding>
-            <marker date="1472033808000" expanded="true" signature="739:895" ph="select id,na... re2_agent_login" />
-            <marker date="1472033808000" expanded="true" signature="1035:1115" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="1316:1432" ph="INSERT INTO re2_agent_login_logs... " />
-            <marker date="1472033808000" expanded="true" signature="1553:1702" ph="SELECT sip_i... re2_agent_active" />
-            <marker date="1472033808000" expanded="true" signature="3298:3392" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472033808000" expanded="true" signature="3583:3717" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="3908:4094" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="4365:4551" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="4790:4892" ph="select id,em... re2_agent_login" />
-            <marker date="1472033808000" expanded="true" signature="6469:6600" ph="select id,em... re2_agent_login" />
-            <marker date="1472033808000" expanded="true" signature="7086:7220" ph="select id,em... re2_agent_login" />
-            <marker date="1472033808000" expanded="true" signature="7389:7476" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="8771:8850" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="8937:9115" ph="SELECT id,xp... re2_agent_call_cdr" />
-            <marker date="1472033808000" expanded="true" signature="9254:9481" ph="insert into re2_agent_call_hadling_detail... " />
-            <marker date="1472033808000" expanded="true" signature="9738:9850" ph="SELECT id,ag... re2_agent_active" />
-            <marker date="1472033808000" expanded="true" signature="10514:10692" ph="SELECT id,xp... re2_agent_call_cdr" />
-            <marker date="1472033808000" expanded="true" signature="10831:11058" ph="insert into re2_agent_call_hadling_detail... " />
-            <marker date="1472033808000" expanded="true" signature="11314:11393" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="11470:11582" ph="SELECT id,ag... re2_agent_active" />
-            <marker date="1472033808000" expanded="true" signature="12301:12384" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472033808000" expanded="true" signature="12543:12675" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="12855:13030" ph="update re2_a... " />
-            <marker date="1472033808000" expanded="true" signature="17044:17109" ph="SELECT city_... re2_agent_competency_profile" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ViewController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="19650">
           <caret line="1316" column="25" selection-start-line="1316" selection-start-column="25" selection-end-line="1316" selection-end-column="25" />
-          <folding>
-            <marker date="1470632849000" expanded="true" signature="585:777" ph="Select aa.lo... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="1214:1282" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="1489:1598" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="1876:1996" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2097:2206" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2438:2545" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2758:2822" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="2940:3032" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="4756:4828" ph="select * fro... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="5257:5349" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="6622:6721" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="7570:7674" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="8741:8873" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="9015:9111" ph="select GROUP... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="9238:9404" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="9502:9624" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="11112:11208" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="11948:12024" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="12362:12420" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="12742:12814" ph="select id,ag... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="12962:13033" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="13130:13183" ph="delete from " />
-            <marker date="1470632849000" expanded="true" signature="13737:13835" ph="select id,em... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="13945:14027" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="14938:14968" ph="select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="15193:15223" ph="select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="16009:16042" ph="select id,na... re2_locations" />
-            <marker date="1470632849000" expanded="true" signature="16264:16296" ph="select id,na... re2_projects" />
-            <marker date="1470632849000" expanded="true" signature="16655:16858" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="16976:17086" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="17328:17563" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="17717:17963" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="21420:21465" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="23485:23733" ph="select count... " />
-            <marker date="1470632849000" expanded="true" signature="24339:24578" ph="select count... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="24957:25273" ph="select r.id,... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="29550:29611" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="30184:30239" ph="Select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="31629:31768" ph="SELECT a.req... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="32841:33146" ph="select start... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="36170:36677" ph="SELECT b.use... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="42030:42077" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="44661:44851" ph="select call_... re2_requirement_call_dispositions" />
-            <marker date="1470632849000" expanded="true" signature="45256:45402" ph="Select req_i... re2_agent_matchmaking_email_status" />
-            <marker date="1470632849000" expanded="true" signature="46747:47254" ph="SELECT b.use... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="52017:52064" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="54648:54838" ph="select call_... re2_requirement_call_dispositions" />
-            <marker date="1470632849000" expanded="true" signature="55243:55389" ph="Select req_i... re2_agent_matchmaking_email_status" />
-            <marker date="1470632849000" expanded="true" signature="58107:58300" ph="Select a.nam... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="60179:60382" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="60501:60611" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="60853:61088" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="61242:61488" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="62765:62810" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="63674:63964" ph="Select c.xpo... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="65810:65899" ph="update re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="65991:66086" ph="Select id,st... re2_requirements" />
-            <marker date="1470632849000" expanded="true" signature="66144:66463" ph="Select cp.ag... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="67050:67108" ph="select id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="68462:68518" ph="SELECT id FR... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="68623:68728" ph="SELECT id, a... re2_agent_competency_profile" />
-            <marker date="1470632849000" expanded="true" signature="69645:69709" ph="SELECT id, n... re2_locations" />
-            <marker date="1470632849000" expanded="true" signature="71323:71793" ph="SELECT DISTI... re2_agent_call_cdr" />
-            <marker date="1470632849000" expanded="true" signature="75307:75486" ph="INSERT INTO `re2_agent_requeing`... " />
-            <marker date="1470632849000" expanded="true" signature="76332:76484" ph="SELECT id, r... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="77922:78067" ph="INSERT INTO `re2_agent_outbound_list`... " />
-            <marker date="1470632849000" expanded="true" signature="78139:78224" ph="UPDATE re2_a... " />
-            <marker date="1470632849000" expanded="true" signature="78681:78789" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="79150:79249" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="79288:79417" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="79568:79684" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="79726:79872" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="80023:80137" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="80177:80321" ph="SELECT count... re2_agent_outbound_list" />
-            <marker date="1470632849000" expanded="true" signature="80445:80544" ph="SELECT count... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="83016:83124" ph="SELECT count... " />
-            <marker date="1470632849000" expanded="true" signature="83532:83600" ph="SELECT id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="83778:83921" ph="SELECT count... " />
-            <marker date="1470632849000" expanded="true" signature="84326:84488" ph="SELECT count... " />
-            <marker date="1470632849000" expanded="true" signature="86310:86438" ph="SELECT b.id,... re2_requirements" />
-            <marker date="1470632849000" expanded="true" signature="86907:86974" ph="SELECT id,na... re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="87137:87212" ph="SELECT id,va... re2_user_contacts" />
-            <marker date="1470632849000" expanded="true" signature="87431:87544" ph="SELECT a.req... re2_agent_ad_detail" />
-            <marker date="1470632849000" expanded="true" signature="88639:88842" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="88961:89071" ph="select id fr... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="89313:89548" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="89702:89948" ph="select a.id,... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="91367:91412" ph="select name re2_cities" />
-            <marker date="1470632849000" expanded="true" signature="92313:92560" ph="select al.lo... re2_agent_login_logs" />
-            <marker date="1470632849000" expanded="true" signature="96714:96806" ph="Select req_i... re2_agent_matchmaking_email_status" />
-            <marker date="1470632849000" expanded="true" signature="97248:97344" ph="select id,na... re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="97506:97578" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="97645:97767" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="97832:97967" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="98032:98153" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="98218:98339" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="98403:98528" ph="SELECT count... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="99217:99414" ph="SELECT a.id,... re2_agent_active" />
-            <marker date="1470632849000" expanded="true" signature="99669:100037" ph="SELECT (SELE... " />
-            <marker date="1470632849000" expanded="true" signature="100112:100267" ph="SELECT closu... re2_agent_call_hadling_detail" />
-            <marker date="1470632849000" expanded="true" signature="100512:100715" ph="SELECT break... re2_agent_login_logs" />
-            <marker date="1470632849000" expanded="true" signature="100887:100975" ph="select name re2_agent_login" />
-            <marker date="1470632849000" expanded="true" signature="103747:103926" ph="SELECT agent... re2_agent_login_logs" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReadytocallController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="1155">
           <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
-          <folding>
-            <marker date="1472818791000" expanded="true" signature="383:477" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="623:694" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="854:1008" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="1076:1163" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="1979:2050" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="2252:2339" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="2858:2947" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="3659:3726" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="4257:4324" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="4950:5017" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="5927:6006" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="6783:6877" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="7032:7186" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="7250:7339" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="7540:7872" ph="Select cp.ag... re2_agent_call_cdr" />
-            <marker date="1472818791000" expanded="true" signature="8753:8900" ph="select s.sip... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="8965:9023" ph="select id,na... re2_cities" />
-            <marker date="1472818791000" expanded="true" signature="11807:11886" ph="Select * fro... re2_agent_outbound_list" />
-            <marker date="1472818791000" expanded="true" signature="12178:12249" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="12390:12470" ph="Select city,... re2_agent_ad_detail" />
-            <marker date="1472818791000" expanded="true" signature="12906:13040" ph="Select sa.si... re2_agent_sip_allotment" />
-            <marker date="1472818791000" expanded="true" signature="13108:13169" ph="Select name re2_agent_login" />
-            <marker date="1472818791000" expanded="true" signature="13236:13294" ph="Select name re2_agent_login" />
-            <marker date="1472818791000" expanded="true" signature="14445:14519" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="16229:16391" ph="insert into re2_agent_hold_call... " />
-            <marker date="1472818791000" expanded="true" signature="17219:17383" ph="insert into `re2_agent_hold_call`... " />
-            <marker date="1472818791000" expanded="true" signature="19240:19319" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="19503:19648" ph="SELECT req_i... re2_agent_ad_detail" />
-            <marker date="1472818791000" expanded="true" signature="21147:21198" ph="select id fr... re2_cities" />
-            <marker date="1472818791000" expanded="true" signature="21338:21683" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1472818791000" expanded="true" signature="22006:22178" ph="select id,ag... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="22581:22666" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="22912:22988" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="23078:23167" ph="SELECT sip_n... re2_agent_sip_allotment" />
-            <marker date="1472818791000" expanded="true" signature="26513:26607" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="26754:26825" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="26971:27154" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="27223:27323" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="27513:27605" ph="select * fro... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="27862:28018" ph="INSERT INTO re2_agent_login_logs... " />
-            <marker date="1472818791000" expanded="true" signature="28469:28569" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="28758:28936" ph="SELECT id,xp... re2_agent_call_cdr" />
-            <marker date="1472818791000" expanded="true" signature="29051:29278" ph="insert into re2_agent_call_hadling_detail... " />
-            <marker date="1472818791000" expanded="true" signature="29485:29556" ph="Select * fro... re2_agent_active" />
-            <marker date="1472818791000" expanded="true" signature="29699:29793" ph="SELECT * FRO... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="29901:30084" ph="update re2_a... " />
-            <marker date="1472818791000" expanded="true" signature="30151:30243" ph="select * fro... re2_agent_login_logs" />
-            <marker date="1472818791000" expanded="true" signature="30500:30656" ph="INSERT INTO re2_agent_login_logs... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5250">
-          <caret line="746" column="74" selection-start-line="746" selection-start-column="74" selection-end-line="746" selection-end-column="74" />
-          <folding>
-            <marker date="1473143572000" expanded="true" signature="984:1055" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="1938:2003" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="2111:2269" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="3157:3228" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="4107:4172" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="4280:4438" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="6680:6767" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="6884:6971" ph="UPDATE re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="7088:7216" ph="INSERT INTO re2_agent_lifo_queue... " />
-            <marker date="1473143572000" expanded="true" signature="9169:9256" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="9373:9460" ph="UPDATE re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="9580:9716" ph="INSERT INTO re2_agent_lifo_queue... " />
-            <marker date="1473143572000" expanded="true" signature="10601:10671" ph="select id fr... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="11090:11195" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="11948:12022" ph="SELECT id FR... re2_agent_requeing" />
-            <marker date="1473143572000" expanded="true" signature="13498:13568" ph="select id fr... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="13985:14090" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="14843:14917" ph="SELECT id FR... re2_agent_requeing" />
-            <marker date="1473143572000" expanded="true" signature="17483:17628" ph="select id,st... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="17747:17812" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="19993:20138" ph="select id,st... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="20257:20322" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="21462:21533" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="22492:22557" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="22673:22831" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="23818:23889" ph="select id,ci... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="24562:24627" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="24751:24909" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="25384:25449" ph="select req_i... re2_agent_ad_detail" />
-            <marker date="1473143572000" expanded="true" signature="25573:25731" ph="Insert into re2_agent_ad_detail... " />
-            <marker date="1473143572000" expanded="true" signature="26532:26675" ph="SELECT sip_i... re2_agent_active" />
-            <marker date="1473143572000" expanded="true" signature="31677:31791" ph="select id,ag... re2_agent_active" />
-            <marker date="1473143572000" expanded="true" signature="31983:32081" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1473143572000" expanded="true" signature="32712:32766" ph="select id,na... re2_cities" />
-            <marker date="1473143572000" expanded="true" signature="34277:34398" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="35032:35153" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="36659:36725" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="36998:37064" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="37158:37220" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="37392:37457" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="37543:37604" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="39102:39215" ph="select id,ag... re2_agent_active" />
-            <marker date="1473143572000" expanded="true" signature="39407:39505" ph="select id,ag... re2_agent_competency_profile" />
-            <marker date="1473143572000" expanded="true" signature="40136:40190" ph="select id,na... re2_cities" />
-            <marker date="1473143572000" expanded="true" signature="41709:41845" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="42477:42598" ph="select req_i... re2_agent_lifo_queue" />
-            <marker date="1473143572000" expanded="true" signature="44121:44187" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="44460:44526" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="44616:44678" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="44850:44915" ph="update re2_a... " />
-            <marker date="1473143572000" expanded="true" signature="45001:45062" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="49281:49380" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="49474:49605" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="50057:50114" ph="select statu... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="50279:50413" ph="select legA_... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="50526:50621" ph="SELECT * FRO... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="52454:52550" ph="SELECT actio... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="52667:52738" ph="SELECT * FRO... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="55058:55134" ph="select city_... re2_requirements" />
-            <marker date="1473143572000" expanded="true" signature="55241:55291" ph="Select id,na... re2_cities" />
-            <marker date="1473143572000" expanded="true" signature="55435:55496" ph="Select type,... re2_user_contacts" />
-            <marker date="1473143572000" expanded="true" signature="55679:55778" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="55884:56015" ph="select count... re2_agent_call_cdr" />
-            <marker date="1473143572000" expanded="true" signature="56503:56600" ph="SELECT * FRO... re2_agent_call_cases" />
-            <marker date="1473143572000" expanded="true" signature="57142:57297" ph="INSERT INTO re2_agent_re_attempt... " />
-            <marker date="1473143572000" expanded="true" signature="57387:57448" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="57872:57933" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="58508:58663" ph="INSERT INTO re2_agent_re_attempt... " />
-            <marker date="1473143572000" expanded="true" signature="58753:58814" ph="delete from " />
-            <marker date="1473143572000" expanded="true" signature="59142:59203" ph="delete from " />
-          </folding>
+        <state relative-caret-position="11100">
+          <caret line="746" column="65" selection-start-line="746" selection-start-column="65" selection-end-line="746" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/reportsnew.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="0">
           <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#button#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8282#8288#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10574#10580#0#HTML" expanded="true" />
-            <element signature="e#10580#10586#0#HTML" expanded="true" />
-            <element signature="e#10586#10592#0#HTML" expanded="true" />
-            <element signature="e#10592#10598#0#HTML" expanded="true" />
-            <element signature="e#10598#10604#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MongoController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ViewController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReadytocallController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PusherController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php" />
+    <entry file="file://$PROJECT_DIR$/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="53" column="100" selection-start-line="53" selection-start-column="99" selection-end-line="53" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/telecaller.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/superuser.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/test.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/xpora-main.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/xpora-mongo.js" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExecuteController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MongoController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PusherController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MappingController.php" />
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ViewController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReadytocallController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/reportsnew.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

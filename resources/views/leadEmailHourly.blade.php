@@ -1,1 +1,0 @@
-<p> Total Leads Sent in Xpora:<?php echo $count; ?></p>
