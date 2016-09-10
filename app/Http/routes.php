@@ -12,12 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('giftIndex');
 });
 Route::get('/error', function () {
     return view('error');
 });
 Route::get('/Leadform/{id}', array('as'=>"Leadform",'uses'=> 'LeadformController@show'));
+Route::get('/giftAdTree', array('as' => 'giftData', 'uses' => 'GiftappController@treeJson'));
+Route::get('/giftAdd', array('as' => 'giftData', 'uses' => 'GiftappController@index'));
 
 
 
